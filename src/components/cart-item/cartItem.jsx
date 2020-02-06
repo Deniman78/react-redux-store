@@ -3,7 +3,6 @@ import React from 'react'
 import styles from './cartItem.module.css'
 
 const CartItem = props => {
-    console.log('lox')
     return (
         <div className="mt-5">
             {props.data.length > 0 ? (
