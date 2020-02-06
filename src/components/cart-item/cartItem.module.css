@@ -1,0 +1,6 @@
+.icons {
+    width: 200px;
+}
+.icons > i {
+    margin-left: 20px;
+}

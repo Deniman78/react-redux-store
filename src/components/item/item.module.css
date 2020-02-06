@@ -1,0 +1,32 @@
+.itemContainer {
+    margin: 20px;
+    padding: 20px;
+    background-color: #282828;
+    flex-basis: 300px;
+    border-radius: 5px;
+}
+
+.lowBottons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lowBottons > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lowBottons > span:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.itemImage {
+    width: 400px;
+    height: 400px;
+}
+
+.price {
+    font-size: 24px;
+}
